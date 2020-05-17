@@ -5,6 +5,7 @@ import Home from "./home";
 import ScrapedInfo from "./scrapedinfo";
 import NavigationContainer from "../components/navigation-container/navigation";
 import About from "./about";
+import footer from "./footer/footer";
 
 export default class App extends Component {
   constructor(props) {

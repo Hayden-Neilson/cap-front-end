@@ -1,6 +1,30 @@
+html {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+body {
+  font-weight: bold;
+}
+
+.app-wrapper {
+  background-color: blue($color: #1316db);
+}
+
 h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #631652;
+  color: white;
+  background-color: #1316db;
+}
+
+.scrapedcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1316db;
+  color: white;
+  margin-bottom: 15px;
 }

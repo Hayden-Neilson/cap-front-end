@@ -38,7 +38,7 @@ export default class home extends Component {
     return (
       <div>
         <h1>Your Details Ya'll</h1>
-        {scrapedRecords}
+        <div className="scrapedcont">{scrapedRecords}</div>
       </div>
     );
   }

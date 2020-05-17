@@ -1,7 +1,18 @@
 .nav-container {
+  margin: 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #e61f1f;
+  padding: 25px;
+  a {
+    text-decoration: none;
+    &:hover {
+      color: black;
+    }
+  }
 }
 .left-side {
   display: flex;
@@ -11,12 +22,14 @@
   height: 22px;
   border-bottom: 1px solid transparent;
   transition: 0.5s ease-in-out;
-  margin-right: 20px;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.9rem;
 
   a {
-    color: #6a821d;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
   }
 }
