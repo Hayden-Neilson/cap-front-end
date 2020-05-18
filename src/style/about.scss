@@ -3,19 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red($color: #000000);
+  background-color: #1316db;
+  color: white;
+  width: 100%;
+  font-size: 1.3rem;
 
-  .title {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  // .title {
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 
-  .center-column {
-    p {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+  // .center-column {
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 }
