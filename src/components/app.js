@@ -28,15 +28,3 @@ export default class App extends Component {
     );
   }
 }
-
-// import React, { useContext, useEffect } from 'react';
-
-// function App  {
-//   useEffect(() => {
-//     fetch('/')
-//   })
-//     return (
-//       <div className='app'>
-//         <h1>Scraper to find a job</h1>
-//       </div>
-//     );
